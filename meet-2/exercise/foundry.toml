@@ -1,0 +1,21 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+metadata = true
+metadata_hash = "none"  # disable ipfs
+use_literal_content = true # use source code
+
+remappings = [
+    "@openzeppelin/=lib/openzeppelin-contracts/"
+]
+
+# Base Configuration
+eth-rpc-url = "https://sepolia.base.org"
+chain_id = 84532
+
+# Verifier configuration (optional - uncomment when you have BASESCAN_API_KEY)
+# [etherscan]
+# base_sepolia = { key = "${BASESCAN_API_KEY}", url = "https://api-sepolia.basescan.org/api" }
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

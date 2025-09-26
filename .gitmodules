@@ -1,0 +1,9 @@
+[submodule "meet-2/rpsgame-contract/lib/forge-std"]
+	path = meet-2/rpsgame-contract/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "meet-2/rpsgame-contract/lib/openzeppelin-contracts"]
+	path = meet-2/rpsgame-contract/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "meet-2/exercise/lib/openzeppelin-contracts"]
+	path = meet-2/exercise/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
