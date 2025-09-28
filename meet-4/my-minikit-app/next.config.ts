@@ -1,9 +1,14 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  webpack: (config) => {
-    config.externals.push("pino-pretty", "lokijs", "encoding");
-    return config;
+const nextConfig = {
+  async redirects() {
+    return [
+      {
+        source: "/about",
+        destination: "/",
+        permanent: true,
+      },
+    ];
   },
 };
 
