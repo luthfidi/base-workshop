@@ -22,7 +22,7 @@ export const minikitConfig = {
     name: "my-minikit-app",
     subtitle: "test",
     description: "test",
-    screenshotUrls: [`${ROOT_URL}/screenshot1.png`, `${ROOT_URL}/screenshot2.png`],
+    screenshotUrls: [`${ROOT_URL}/screenshot1.png`],
     iconUrl: `${ROOT_URL}/icon.png`,
     splashImageUrl: `${ROOT_URL}/splash.png`,
     splashBackgroundColor: "#000000",
