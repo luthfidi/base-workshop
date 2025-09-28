@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.base.org)",
+      "WebSearch",
+      "WebFetch(domain:onchainkit.xyz)",
+      "Bash(mv:*)",
+      "Bash(sudo mv:*)",
+      "Bash(cp:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm install:*)",
+      "Read(//mnt/c/Users/luthf/OneDrive/Pictures/Screenshot/**)",
+      "Bash(npx tailwindcss init:*)",
+      "Bash(forge init:*)",
+      "Bash(forge install:*)",
+      "Bash(forge build:*)",
+      "Bash(source .env)",
+      "Bash(forge script:*)",
+      "Bash(BASESCAN_API_KEY=\"\" forge script script/Deploy.s.sol --rpc-url https://sepolia.base.org --broadcast)",
+      "Bash(npm run dev:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
