@@ -7,3 +7,6 @@
 [submodule "meet-2/exercise/lib/openzeppelin-contracts"]
 	path = meet-2/exercise/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "meet-3/onchainkit-vite/contracts/lib/openzeppelin-contracts"]
+	path = meet-3/onchainkit-vite/contracts/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
